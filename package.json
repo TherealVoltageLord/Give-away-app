@@ -1,5 +1,5 @@
 {
-  "name": "chat-application",
+  "name": "chat-application for giveaway",
   "version": "1.0.0",
   "description": "Creating a Chat Application using Node.js, Express, Socket.io, MongoDB and HTML & CSS",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Neelabh Sinha",
+  "author": "Voltage Lord",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
