@@ -7,7 +7,7 @@ const {username, room} = Qs.parse(location.search, {
 
 let fromUser="John";
 let toUser="Maria";
-//socket.emit('userDetails',{fromUser,toUser});
+socket.emit('userDetails',{fromUser,toUser});
 
 function storeDetails() {
     fromUser = document.getElementById('from').value;
@@ -18,7 +18,7 @@ function storeDetails() {
 
 function storeTo() {
     
-    //console.log(toUser);
+    console.log(toUser);
 }
 
 
@@ -61,4 +61,5 @@ function outputMessage(message) {
         ${message.message}
     </p>`;
     document.querySelector('.chat-messages').appendChild(div);
+
 }
